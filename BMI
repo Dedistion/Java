@@ -16,7 +16,7 @@ public class BMI
         System.out.print("Weight: ");
         weight = keyboard.nextDouble();
         
-        bmi = weight / (height * height);
+        bmi = weight / (height * height); //what is wrong here?
         
         System.out.println("Yout BMI: " + bmi);
         
